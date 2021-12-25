@@ -1,1 +1,2 @@
 # xgboost-custom-metric
+Notebook that demonstrates using XGBoost on the Abalone dataset with the multi:softprob objective. XGBoost objective multi:softprob means multi classification with softmax objective, where prediction outputs probabilities of each class. Evaluates the model using a custom metric. Stops early when the custom metric on validation set has been below the best value for some rounds. Plots feature importance and SHAP values, as well as the train/validation metrics as calculated during training of each new tree.
